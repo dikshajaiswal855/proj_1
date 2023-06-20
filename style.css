@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Love+Light&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Creepster', cursive;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* max-width: 1080px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inine-section); */
+/* } */
+
+/* .top-section, .bottom-section {
+    flex: 1;
+  } */ 
+  :root {
+    --primary-text-color:#1b0a30;
+    --secondary-text--colour:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inine-section:20px;
+}
+  body, html {
+    font-family: 'Creepster', cursive;
+font-family: 'Love Light', cursive;
+
+    /* font-family: 'Creepster', cursive; */
+    font-size: 50px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-banner{
+    background-color: #2294ed !important;
+   text-size-adjust: 0.2rem!important;
+   
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(to right, #030107,#5f4191);
+  }
+  
+  .top-section :hover, .bottom-section :hover{
+    color: var(--primary-text-color);
+    flex: 1;
+    cursor: pointer;
+  }
+
+
+
+  .horizontal-line {
+    border: dotted #101f1f 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto;
+  }
+h1{
+  
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #030107;
+  
+}
+
+.hover-link{
+ 
+  text-decoration: none;
+  transition: 0.2s ease-out;
+  
+}
+.flex{
+  display: flex;
+}
