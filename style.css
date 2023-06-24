@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 /* *{
     margin: 0;
     padding: 0;
@@ -26,21 +25,30 @@ body{
     flex: 1;
   } */ 
   :root {
-    --primary-text-color:#1b0a30;
+    --primary-text-color:#6d267d;
     --secondary-text--colour:#577592;
     --accent-color:#2294ed;
     --accent-color-dark:#1d69a3;
     --padding-inine-section:20px;
 }
   body, html {
-    font-family: 'Creepster', cursive;
-font-family: 'Love Light', cursive;
-
+    font-family: 'Monoton', cursive;
+    
+    /* Adjust the stretch value as needed */
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);  */
     /* font-family: 'Creepster', cursive; */
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .tet{
+    font-weight: 100 !important;
+  font-stretch: ultra-condensed; /* Adjust the stretch value as needed */
+  text-shadow: 1px 1px 1px rgba(171, 146, 146, 0.1); /* Adjust the shadow as needed */
+  
+
   }
   
   .top-banner{
@@ -79,11 +87,23 @@ h1{
 }
 
 .hover-link{
- 
   text-decoration: none;
   transition: 0.2s ease-out;
   
 }
+  
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  animation: neon-blink 1.5s infinite;
+}
+
+@keyframes neon-blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1.0; }
+}
+
 .flex{
   display: flex;
 }
