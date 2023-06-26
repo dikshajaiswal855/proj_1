@@ -107,3 +107,10 @@ h1{
 .flex{
   display: flex;
 }
+.page-link {
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: lightgray;
+}
