@@ -107,6 +107,9 @@ h1{
 .flex{
   display: flex;
 }
+a{
+  text-decoration: none;
+}
 .page-link {
   transition: background-color 0.3s ease;
 }
